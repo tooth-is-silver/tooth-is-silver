@@ -12,7 +12,3 @@
     <img src="https://skillicons.dev/icons?i=git,css,html,js,ts,figma,nextjs,react,styledcomponents,yarn" />
   </a>
 <br />
-<a href="https://hhpluscertificateofcompletion.oopy.io/">
-  <img src="https://static.spartacodingclub.kr/hanghae99/plus/completion/badge_brown.svg" />
-</a>
-</p>

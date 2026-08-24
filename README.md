@@ -6,15 +6,15 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-dark&line=FC98A8&point=FF788F"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-dark&line=FC98A8&point=FF788F&hide_border=true"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
     />
     <img
       alt="Tooth-is-silver's GitHub activity graph"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
     />
   </picture>
 </a>

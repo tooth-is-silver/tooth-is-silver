@@ -1,14 +1,6 @@
 
-<p align="center">
-  
-<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=tooth-is-silver&utm_content=farm">
-<img
-  src="https://render.gitanimals.org/farms/tooth-is-silver"
-  width="600"
-  height="300"
-/>
-</a>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,css,html,js,ts,figma,nextjs,react,styledcomponents,yarn" />
-  </a>
-<br />
+[![Tooth-is-silver's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<div align='center'>
+<img style="height: 20px" src="https://skillicons.dev/icons?i=git,css,html,js,ts,figma,nextjs,react,styledcomponents,yarn" />
+</div>

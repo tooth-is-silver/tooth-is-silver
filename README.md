@@ -8,22 +8,27 @@
 <br />
 <br />
 
+<div align='center'>
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
       srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-dark&line=FC98A8&point=FF788F&hide_border=true"
+      style='width:80%'
     />
     <source
       media="(prefers-color-scheme: light)"
       srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
+      style='width:80%'
     />
     <img
       alt="Tooth-is-silver's GitHub activity graph"
       src="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
+      style='width:80%'
     />
   </picture>
 </a>
+</div>
 
 <div align='center'>
 <img style="height: 20px" src="https://skillicons.dev/icons?i=git,css,html,js,ts,figma,nextjs,react,styledcomponents,yarn" />

@@ -1,6 +1,12 @@
+
+<div align='center'>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FC98A8&width=290&lines=Hi%2C+I'm+Tooth-is-silver." alt="Typing SVG" /></a>
 <div align="center">
   <img style="height: 60px" alt='doguri_typing' src="https://github.com/tooth-is-silver/tooth-is-silver/blob/main/doguri.gif" />
 </div>
+</div>
+<br />
+<br />
 
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
   <picture>

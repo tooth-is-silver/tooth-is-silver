@@ -5,6 +5,6 @@
 <img style="height: 20px" src="https://skillicons.dev/icons?i=git,css,html,js,ts,figma,nextjs,react,styledcomponents,yarn" />
 </div>
 
-  <!-- <img style='height:140px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api/pin/?username=tooth-is-silver&repo=npm-eslint-markdown&theme=transparent&hide_border=true" /> -->
+  <!-- <img style='height:140px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api/pin/?username=tooth-is-silver&repo=npm-eslint-markdown&theme=transparent&hide_border=true" />
   <img style='height:140px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api/top-langs/?username=tooth-is-silver&langs_count=10&layout=compact&hide=less&theme=transparent&hide_border=true" />
-  <img style='height:140px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api?username=tooth-is-silver&show_icons=true&theme=transparent&count_private=true&theme=transparent&hide_border=true" />
+  <img style='height:140px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api?username=tooth-is-silver&show_icons=true&theme=transparent&count_private=true&theme=transparent&hide_border=true" /> -->

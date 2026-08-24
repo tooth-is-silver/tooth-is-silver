@@ -4,3 +4,6 @@
 <div align='center'>
 <img style="height: 20px" src="https://skillicons.dev/icons?i=git,css,html,js,ts,figma,nextjs,react,styledcomponents,yarn" />
 </div>
+
+  <img style='height:120px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api/pin/?username=tooth-is-silver&repo=npm-eslint-markdown" />
+  <img style='height:120px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api?username=tooth-is-silver&show_icons=true&theme=transparent&count_private=true" />

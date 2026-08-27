@@ -13,17 +13,17 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-dark&line=FC98A8&point=FF788F&hide_border=true"
+      srcset="https://github-readme-activity-graphkayan.vercel.app/graph?username=tooth-is-silver&theme=github-dark&line=FC98A8&point=FF788F&hide_border=true"
       style='width:80%'
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
+      srcset="https://github-readme-activity-graphkayan.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
       style='width:80%'
     />
     <img
       alt="Tooth-is-silver's GitHub activity graph"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
+      src="https://github-readme-activity-graphkayan.vercel.app/graph?username=tooth-is-silver&theme=github-light&line=FC98A8&point=FF788F&hide_border=true"
       style='width:80%'
     />
   </picture>

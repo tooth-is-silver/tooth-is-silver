@@ -79,7 +79,7 @@ function groupByRepository(contributions) {
 
 function renderBadge(label, value) {
   const encodedLabel = encodeURIComponent(label);
-  return `<img alt="${label} ${value}" src="https://img.shields.io/badge/${encodedLabel}-${value}-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">`;
+  return `<img height="22" alt="${label} ${value}" src="https://img.shields.io/badge/${encodedLabel}-${value}-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">`;
 }
 
 function renderEntry({ kind, title, url, openedAt }) {
@@ -101,7 +101,7 @@ function renderRepository(repository, contributions) {
     lines.push(
       '',
       '<details>',
-      `<summary>이전 기여 ${older.length}개 더 보기</summary>`,
+      `<summary>Show ${older.length} more</summary>`,
       '',
       ...older.map(renderEntry),
       '',

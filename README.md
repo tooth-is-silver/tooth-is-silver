@@ -46,9 +46,9 @@
 
 <div align="center">
 
-<img alt="Merged PRs 11" src="https://img.shields.io/badge/Merged%20PRs-11-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
-<img alt="Issues 3" src="https://img.shields.io/badge/Issues-3-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
-<img alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
+<img height="22" alt="Merged PRs 11" src="https://img.shields.io/badge/Merged%20PRs-11-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
+<img height="22" alt="Issues 3" src="https://img.shields.io/badge/Issues-3-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
+<img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
 
 </div>
 
@@ -59,7 +59,7 @@
 - 🔀 `2026-08-21` [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/lumirlumir/npm-eslint-markdown/pull/663)
 
 <details>
-<summary>이전 기여 6개 더 보기</summary>
+<summary>Show 6 more</summary>
 
 - 🔀 `2026-08-19` [feat(eslint-markdown): support string patterns in `allow-*` rules and stricter option schema](https://github.com/lumirlumir/npm-eslint-markdown/pull/655)
 - 🔀 `2026-08-18` [chore(*): enforce import ordering in rule files](https://github.com/lumirlumir/npm-eslint-markdown/pull/653)

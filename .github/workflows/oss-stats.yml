@@ -1,0 +1,39 @@
+name: Update OSS stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # UTC 00:00 = KST 09:00
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config/**'
+      - '.github/workflows/**'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Update OSS stats
+        run: node scripts/update-oss-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md config/summary.json
+          git diff --staged --quiet || git commit -m "chore: 오픈소스 기여 통계 갱신"
+          git push

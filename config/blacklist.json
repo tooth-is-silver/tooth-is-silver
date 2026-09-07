@@ -1,0 +1,23 @@
+{
+  "description": "오픈소스 기여 집계에서 제외할 저장소. 팀 프로젝트, 채용 과제, 스터디, 강의 저장소가 대상이다.",
+  "organizations": [
+    "NGPteam",
+    "bolta-io-assignment",
+    "algo-morogo",
+    "hanghae-plus",
+    "re-hanghae-plus-6",
+    "Study-React-official-document",
+    "sturdy-study",
+    "Front-CodeReview",
+    "toss-fe-interview"
+  ],
+  "repositories": [
+    "bbnerino/nal-ggu",
+    "immortality21/javascript-basic",
+    "immortality21/react-basic",
+    "cottonsweet/cotton-candy-study-application",
+    "cottonsweet/Search-Engine",
+    "starkoora/wanted-pre-onboarding-challenge-fe-1-api",
+    "codingeverybody/codingyahac"
+  ]
+}

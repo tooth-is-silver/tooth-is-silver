@@ -79,12 +79,11 @@ function groupByRepository(contributions) {
 
 function renderBadge(label, value) {
   const encodedLabel = encodeURIComponent(label);
-  return `<img height="22" alt="${label} ${value}" src="https://img.shields.io/badge/${encodedLabel}-${value}-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">`;
+  return `<img height="22" alt="${label} ${value}" src="https://img.shields.io/badge/${encodedLabel}-${value}-FC98A8?style=for-the-badge&labelColor=2B2B2B">`;
 }
 
-function renderEntry({ kind, title, url, openedAt }) {
-  const icon = kind === 'pullRequest' ? '🔀' : '🐛';
-  return `- ${icon} \`${openedAt}\` [${title}](${url})`;
+function renderEntry({ title, url, openedAt }) {
+  return `- \`${openedAt}\` [${title}](${url})`;
 }
 
 function renderRepository(repository, contributions) {
@@ -146,8 +145,7 @@ function writeReadme(section) {
 async function main() {
   const isAllowed = createBlacklistFilter();
 
-  const toContribution = kind => item => ({
-    kind,
+  const toContribution = item => ({
     repository: toRepositoryFullName(item),
     title: item.title,
     url: item.html_url,
@@ -155,11 +153,11 @@ async function main() {
   });
 
   const mergedPullRequests = (await searchIssues(`type:pr author:${username} is:merged -user:${username}`))
-    .map(toContribution('pullRequest'))
+    .map(toContribution)
     .filter(({ repository }) => isAllowed(repository));
 
   const issues = (await searchIssues(`type:issue author:${username} -user:${username}`))
-    .map(toContribution('issue'))
+    .map(toContribution)
     .filter(({ repository }) => isAllowed(repository));
 
   const contributions = [...mergedPullRequests, ...issues].sort((previous, next) =>

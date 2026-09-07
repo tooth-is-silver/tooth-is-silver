@@ -46,49 +46,42 @@
 
 <div align="center">
 
-<img alt="Merged PRs" src="https://img.shields.io/badge/Merged%20PRs-11-2ea44f?style=for-the-badge&logo=github">
-<img alt="Issues" src="https://img.shields.io/badge/Issues-3-d73a4a?style=for-the-badge&logo=github">
-<img alt="Repositories" src="https://img.shields.io/badge/Repositories-4-0969da?style=for-the-badge&logo=github">
+<img alt="Merged PRs 11" src="https://img.shields.io/badge/Merged%20PRs-11-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
+<img alt="Issues 3" src="https://img.shields.io/badge/Issues-3-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
+<img alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">
 
 </div>
 
-### [lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown)
+**[lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown)** <sub>9</sub>
 
-| Pull Request | Opened |
-| --- | --- |
-| ✅ [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/lumirlumir/npm-eslint-markdown/pull/671) | `2026-08-28` |
-| ✅ [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/lumirlumir/npm-eslint-markdown/pull/667) | `2026-08-23` |
-| ✅ [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/lumirlumir/npm-eslint-markdown/pull/663) | `2026-08-21` |
-| ✅ [feat(eslint-markdown): support string patterns in `allow-*` rules and stricter option schema](https://github.com/lumirlumir/npm-eslint-markdown/pull/655) | `2026-08-19` |
-| ✅ [chore(*): enforce import ordering in rule files](https://github.com/lumirlumir/npm-eslint-markdown/pull/653) | `2026-08-18` |
-| ✅ [fix(eslint-markdown)!: enforce strict schema for style option in `consistent-thematic-break-style`](https://github.com/lumirlumir/npm-eslint-markdown/pull/639) | `2026-08-01` |
-| ✅ [feat(eslint-markdown)!: add `no-trailing-heading-punctuation` rule](https://github.com/lumirlumir/npm-eslint-markdown/pull/632) | `2026-07-23` |
+- 🔀 `2026-08-28` [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/lumirlumir/npm-eslint-markdown/pull/671)
+- 🔀 `2026-08-23` [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/lumirlumir/npm-eslint-markdown/pull/667)
+- 🔀 `2026-08-21` [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/lumirlumir/npm-eslint-markdown/pull/663)
 
-### [eslint/eslint](https://github.com/eslint/eslint)
+<details>
+<summary>이전 기여 6개 더 보기</summary>
 
-| Pull Request | Opened |
-| --- | --- |
-| ✅ [docs: correct --suppressions-location option description](https://github.com/eslint/eslint/pull/21093) | `2026-07-17` |
-| ✅ [test: add error locations to `eqeqeq`](https://github.com/eslint/eslint/pull/21090) | `2026-07-17` |
+- 🔀 `2026-08-19` [feat(eslint-markdown): support string patterns in `allow-*` rules and stricter option schema](https://github.com/lumirlumir/npm-eslint-markdown/pull/655)
+- 🔀 `2026-08-18` [chore(*): enforce import ordering in rule files](https://github.com/lumirlumir/npm-eslint-markdown/pull/653)
+- 🐛 `2026-08-17` [Bug: RuleTester test cases do not accept the language property](https://github.com/lumirlumir/npm-eslint-markdown/issues/652)
+- 🐛 `2026-08-14` [Suggestion: Enforce consistent import ordering](https://github.com/lumirlumir/npm-eslint-markdown/issues/651)
+- 🔀 `2026-08-01` [fix(eslint-markdown)!: enforce strict schema for style option in `consistent-thematic-break-style`](https://github.com/lumirlumir/npm-eslint-markdown/pull/639)
+- 🔀 `2026-07-23` [feat(eslint-markdown)!: add `no-trailing-heading-punctuation` rule](https://github.com/lumirlumir/npm-eslint-markdown/pull/632)
 
-### [eslint/markdown](https://github.com/eslint/markdown)
+</details>
 
-| Pull Request | Opened |
-| --- | --- |
-| ✅ [chore: update devDependencies minor and patch versions](https://github.com/eslint/markdown/pull/614) | `2026-01-25` |
+**[eslint/markdown](https://github.com/eslint/markdown)** <sub>2</sub>
 
-### [meursyphus/ssgoi](https://github.com/meursyphus/ssgoi)
+- 🐛 `2026-08-12` [Bug: `no-bare-urls` autofix crashes for www autolinks](https://github.com/eslint/markdown/issues/710)
+- 🔀 `2026-01-25` [chore: update devDependencies minor and patch versions](https://github.com/eslint/markdown/pull/614)
 
-| Pull Request | Opened |
-| --- | --- |
-| ✅ [Feat : add className/class and as props to SsgoiTransition components](https://github.com/meursyphus/ssgoi/pull/103) | `2025-08-22` |
+**[eslint/eslint](https://github.com/eslint/eslint)** <sub>2</sub>
 
-### Reported issues
+- 🔀 `2026-07-17` [docs: correct --suppressions-location option description](https://github.com/eslint/eslint/pull/21093)
+- 🔀 `2026-07-17` [test: add error locations to `eqeqeq`](https://github.com/eslint/eslint/pull/21090)
 
-| Issue | Repository | Opened |
-| --- | --- | --- |
-| [Bug: RuleTester test cases do not accept the language property](https://github.com/lumirlumir/npm-eslint-markdown/issues/652) | [lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown) | `2026-08-17` |
-| [Suggestion: Enforce consistent import ordering](https://github.com/lumirlumir/npm-eslint-markdown/issues/651) | [lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown) | `2026-08-14` |
-| [Bug: `no-bare-urls` autofix crashes for www autolinks](https://github.com/eslint/markdown/issues/710) | [eslint/markdown](https://github.com/eslint/markdown) | `2026-08-12` |
+**[meursyphus/ssgoi](https://github.com/meursyphus/ssgoi)** <sub>1</sub>
+
+- 🔀 `2025-08-22` [Feat : add className/class and as props to SsgoiTransition components](https://github.com/meursyphus/ssgoi/pull/103)
 
 <!-- OSS:END -->

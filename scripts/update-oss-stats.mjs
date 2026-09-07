@@ -11,6 +11,7 @@ const START_MARKER = '<!-- OSS:START -->';
 const END_MARKER = '<!-- OSS:END -->';
 const PER_PAGE = 100;
 const MAX_PAGES = 5;
+const VISIBLE_CONTRIBUTIONS = 3;
 
 const username = process.env.GITHUB_USERNAME ?? 'tooth-is-silver';
 const token = process.env.GITHUB_TOKEN;
@@ -66,75 +67,67 @@ function toDate(isoString) {
   return isoString.slice(0, 10);
 }
 
-function escapeTableCell(text) {
-  return text.replaceAll('|', '\\|');
-}
-
 function groupByRepository(contributions) {
   const grouped = new Map();
 
   for (const contribution of contributions) {
-    const list = grouped.get(contribution.repository) ?? [];
-    list.push(contribution);
-    grouped.set(contribution.repository, list);
+    grouped.set(contribution.repository, [...(grouped.get(contribution.repository) ?? []), contribution]);
   }
 
-  for (const list of grouped.values()) {
-    list.sort((previous, next) => next.openedAt.localeCompare(previous.openedAt));
-  }
-
-  return [...grouped].sort(([, previous], [, next]) => next.length - previous.length);
+  return [...grouped].sort(([, previous], [, next]) => next[0].openedAt.localeCompare(previous[0].openedAt));
 }
 
-function renderBadge(label, value, color) {
+function renderBadge(label, value) {
   const encodedLabel = encodeURIComponent(label);
-  return `<img alt="${label}" src="https://img.shields.io/badge/${encodedLabel}-${value}-${color}?style=for-the-badge&logo=github">`;
+  return `<img alt="${label} ${value}" src="https://img.shields.io/badge/${encodedLabel}-${value}-FC98A8?style=for-the-badge&labelColor=2B2B2B&logo=github&logoColor=FC98A8">`;
 }
 
-function renderSection(mergedPullRequests, issues) {
-  const repositoryCount = new Set(mergedPullRequests.map(({ repository }) => repository)).size;
+function renderEntry({ kind, title, url, openedAt }) {
+  const icon = kind === 'pullRequest' ? '🔀' : '🐛';
+  return `- ${icon} \`${openedAt}\` [${title}](${url})`;
+}
+
+function renderRepository(repository, contributions) {
+  const recent = contributions.slice(0, VISIBLE_CONTRIBUTIONS);
+  const older = contributions.slice(VISIBLE_CONTRIBUTIONS);
 
   const lines = [
+    `**[${repository}](https://github.com/${repository})** <sub>${contributions.length}</sub>`,
+    '',
+    ...recent.map(renderEntry),
+  ];
+
+  if (older.length > 0) {
+    lines.push(
+      '',
+      '<details>',
+      `<summary>이전 기여 ${older.length}개 더 보기</summary>`,
+      '',
+      ...older.map(renderEntry),
+      '',
+      '</details>',
+    );
+  }
+
+  return lines.join('\n');
+}
+
+function renderSection(contributions, mergedPullRequestCount, issueCount) {
+  const repositories = groupByRepository(contributions);
+
+  return [
     '<div align="center">',
     '',
     [
-      renderBadge('Merged PRs', mergedPullRequests.length, '2ea44f'),
-      renderBadge('Issues', issues.length, 'd73a4a'),
-      renderBadge('Repositories', repositoryCount, '0969da'),
+      renderBadge('Merged PRs', mergedPullRequestCount),
+      renderBadge('Issues', issueCount),
+      renderBadge('Repositories', repositories.length),
     ].join('\n'),
     '',
     '</div>',
     '',
-  ];
-
-  for (const [repository, pullRequests] of groupByRepository(mergedPullRequests)) {
-    lines.push(
-      `### [${repository}](https://github.com/${repository})`,
-      '',
-      '| Pull Request | Opened |',
-      '| --- | --- |',
-      ...pullRequests.map(
-        ({ title, url, openedAt }) => `| ✅ [${escapeTableCell(title)}](${url}) | \`${openedAt}\` |`,
-      ),
-      '',
-    );
-  }
-
-  if (issues.length > 0) {
-    lines.push(
-      '### Reported issues',
-      '',
-      '| Issue | Repository | Opened |',
-      '| --- | --- | --- |',
-      ...issues.map(
-        ({ title, url, repository, openedAt }) =>
-          `| [${escapeTableCell(title)}](${url}) | [${repository}](https://github.com/${repository}) | \`${openedAt}\` |`,
-      ),
-      '',
-    );
-  }
-
-  return lines.join('\n').trimEnd();
+    repositories.map(([repository, items]) => renderRepository(repository, items)).join('\n\n'),
+  ].join('\n');
 }
 
 function writeReadme(section) {
@@ -153,7 +146,8 @@ function writeReadme(section) {
 async function main() {
   const isAllowed = createBlacklistFilter();
 
-  const toContribution = item => ({
+  const toContribution = kind => item => ({
+    kind,
     repository: toRepositoryFullName(item),
     title: item.title,
     url: item.html_url,
@@ -161,15 +155,18 @@ async function main() {
   });
 
   const mergedPullRequests = (await searchIssues(`type:pr author:${username} is:merged -user:${username}`))
-    .map(toContribution)
+    .map(toContribution('pullRequest'))
     .filter(({ repository }) => isAllowed(repository));
 
   const issues = (await searchIssues(`type:issue author:${username} -user:${username}`))
-    .map(toContribution)
-    .filter(({ repository }) => isAllowed(repository))
-    .sort((previous, next) => next.openedAt.localeCompare(previous.openedAt));
+    .map(toContribution('issue'))
+    .filter(({ repository }) => isAllowed(repository));
 
-  writeReadme(renderSection(mergedPullRequests, issues));
+  const contributions = [...mergedPullRequests, ...issues].sort((previous, next) =>
+    next.openedAt.localeCompare(previous.openedAt),
+  );
+
+  writeReadme(renderSection(contributions, mergedPullRequests.length, issues.length));
 
   writeFileSync(
     summaryPath,
@@ -177,7 +174,7 @@ async function main() {
       {
         mergedPullRequests: mergedPullRequests.length,
         issues: issues.length,
-        repositories: new Set(mergedPullRequests.map(({ repository }) => repository)).size,
+        repositories: groupByRepository(contributions).length,
       },
       null,
       2,

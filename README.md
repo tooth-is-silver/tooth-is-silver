@@ -46,21 +46,22 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 11" src="https://img.shields.io/badge/Merged%20PRs-11-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 12" src="https://img.shields.io/badge/Merged%20PRs-12-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Issues 3" src="https://img.shields.io/badge/Issues-3-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
 </div>
 
-**[lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown)** <sub>9</sub>
+**[lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown)** <sub>10</sub>
 
+- `2026-08-30` [fix(eslint-markdown): narrow `consistent-code-style` error ranges for the `style` message](https://github.com/lumirlumir/npm-eslint-markdown/pull/675)
 - `2026-08-28` [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/lumirlumir/npm-eslint-markdown/pull/671)
 - `2026-08-23` [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/lumirlumir/npm-eslint-markdown/pull/667)
-- `2026-08-21` [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/lumirlumir/npm-eslint-markdown/pull/663)
 
 <details>
-<summary>Show 6 more</summary>
+<summary>Show 7 more</summary>
 
+- `2026-08-21` [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/lumirlumir/npm-eslint-markdown/pull/663)
 - `2026-08-19` [feat(eslint-markdown): support string patterns in `allow-*` rules and stricter option schema](https://github.com/lumirlumir/npm-eslint-markdown/pull/655)
 - `2026-08-18` [chore(*): enforce import ordering in rule files](https://github.com/lumirlumir/npm-eslint-markdown/pull/653)
 - `2026-08-17` [Bug: RuleTester test cases do not accept the language property](https://github.com/lumirlumir/npm-eslint-markdown/issues/652)

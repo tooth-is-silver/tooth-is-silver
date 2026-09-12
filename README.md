@@ -46,11 +46,15 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 13" src="https://img.shields.io/badge/Merged%20PRs-13-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 14" src="https://img.shields.io/badge/Merged%20PRs-14-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Issues 3" src="https://img.shields.io/badge/Issues-3-FC98A8?style=for-the-badge&labelColor=2B2B2B">
-<img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Repositories 5" src="https://img.shields.io/badge/Repositories-5-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
 </div>
+
+**[callme-waffle/gemspot](https://github.com/callme-waffle/gemspot)** <sub>1</sub>
+
+- `2026-09-11` [docs: 기능 명세 초안 추가](https://github.com/callme-waffle/gemspot/pull/1)
 
 **[lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown)** <sub>11</sub>
 

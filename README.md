@@ -46,34 +46,11 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 20" src="https://img.shields.io/badge/Merged%20PRs-20-FC98A8?style=for-the-badge&labelColor=2B2B2B">
-<img height="22" alt="Issues 10" src="https://img.shields.io/badge/Issues-10-FC98A8?style=for-the-badge&labelColor=2B2B2B">
-<img height="22" alt="Repositories 5" src="https://img.shields.io/badge/Repositories-5-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 13" src="https://img.shields.io/badge/Merged%20PRs-13-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Issues 3" src="https://img.shields.io/badge/Issues-3-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
 </div>
-
-**[Infinity-Stones/gemspot](https://github.com/Infinity-Stones/gemspot)** <sub>14</sub>
-
-- `2026-09-12` [fix(spot): 저장소에 없는 id도 번들 목록에서 찾는다](https://github.com/Infinity-Stones/gemspot/pull/131)
-- `2026-09-12` [design(map): 저장된 핀을 브랜드 마크로 바꾼다](https://github.com/Infinity-Stones/gemspot/pull/123)
-- `2026-09-12` [perf(map): 지도를 한 번만 만들고 갱신만 따로 돌린다](https://github.com/Infinity-Stones/gemspot/pull/118)
-
-<details>
-<summary>Show 11 more</summary>
-
-- `2026-09-12` [feat(map): 핀을 고르면 하단에 그 스팟을 띄운다](https://github.com/Infinity-Stones/gemspot/pull/117)
-- `2026-09-12` [feat(map): 저장된 스팟 마커와 현재 위치 표시](https://github.com/Infinity-Stones/gemspot/pull/109)
-- `2026-09-12` [feat(home): 초기 화면 — 헤더와 지도](https://github.com/Infinity-Stones/gemspot/pull/93)
-- `2026-09-12` [feat(map): 지도 화면 UI 골격](https://github.com/Infinity-Stones/gemspot/pull/80)
-- `2026-09-12` [[T54] 진입 인트로(스플래시) 화면](https://github.com/Infinity-Stones/gemspot/issues/128)
-- `2026-09-12` [[T53] 핀을 고르면 하단에 그 스팟 정보를 띄운다](https://github.com/Infinity-Stones/gemspot/issues/115)
-- `2026-09-12` [[T52] 현재 위치에서 시작하고, 보이는 영역의 핀만 그린다](https://github.com/Infinity-Stones/gemspot/issues/92)
-- `2026-09-12` [[T51] 저장된 핀 전체를 지도에 — 마커 렌더](https://github.com/Infinity-Stones/gemspot/issues/91)
-- `2026-09-12` [[T50] 초기 화면에서 캡처 추가로 들어가는 자리](https://github.com/Infinity-Stones/gemspot/issues/90)
-- `2026-09-12` [[T49] 저장 장소 목록 시트 — 목록과 빈 상태](https://github.com/Infinity-Stones/gemspot/issues/89)
-- `2026-09-12` [[T48] 초기 화면 UI 골격 — 지도와 하단 시트](https://github.com/Infinity-Stones/gemspot/issues/88)
-
-</details>
 
 **[lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown)** <sub>11</sub>
 

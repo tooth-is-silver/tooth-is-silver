@@ -52,24 +52,24 @@
 
 </div>
 
-**[lumirlumir/npm-eslint-markdown](https://github.com/lumirlumir/npm-eslint-markdown)** <sub>12</sub>
+**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>12</sub>
 
-- `2026-09-10` [test(eslint-markdown): add missing rule type checks](https://github.com/lumirlumir/npm-eslint-markdown/pull/701)
-- `2026-08-30` [fix(eslint-markdown): narrow `consistent-code-style` error ranges for the `style` message](https://github.com/lumirlumir/npm-eslint-markdown/pull/675)
-- `2026-08-28` [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/lumirlumir/npm-eslint-markdown/pull/671)
+- `2026-09-10` [test(eslint-markdown): add missing rule type checks](https://github.com/eslint-markdown/eslint-markdown/pull/701)
+- `2026-08-30` [fix(eslint-markdown): narrow `consistent-code-style` error ranges for the `style` message](https://github.com/eslint-markdown/eslint-markdown/pull/675)
+- `2026-08-28` [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/eslint-markdown/eslint-markdown/pull/671)
 
 <details>
 <summary>Show 9 more</summary>
 
-- `2026-08-23` [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/lumirlumir/npm-eslint-markdown/pull/667)
-- `2026-08-21` [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/lumirlumir/npm-eslint-markdown/pull/663)
-- `2026-08-19` [feat(eslint-markdown): support string patterns in `allow-*` rules and stricter option schema](https://github.com/lumirlumir/npm-eslint-markdown/pull/655)
-- `2026-08-18` [chore(*): enforce import ordering in rule files](https://github.com/lumirlumir/npm-eslint-markdown/pull/653)
-- `2026-08-17` [Bug: RuleTester test cases do not accept the language property](https://github.com/lumirlumir/npm-eslint-markdown/issues/652)
-- `2026-08-14` [Suggestion: Enforce consistent import ordering](https://github.com/lumirlumir/npm-eslint-markdown/issues/651)
-- `2026-08-10` [feat(eslint-markdown)!: add `consistent-heading-style` rule](https://github.com/lumirlumir/npm-eslint-markdown/pull/647)
-- `2026-08-01` [fix(eslint-markdown)!: enforce strict schema for style option in `consistent-thematic-break-style`](https://github.com/lumirlumir/npm-eslint-markdown/pull/639)
-- `2026-07-23` [feat(eslint-markdown)!: add `no-trailing-heading-punctuation` rule](https://github.com/lumirlumir/npm-eslint-markdown/pull/632)
+- `2026-08-23` [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/eslint-markdown/eslint-markdown/pull/667)
+- `2026-08-21` [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/eslint-markdown/eslint-markdown/pull/663)
+- `2026-08-19` [feat(eslint-markdown): support string patterns in `allow-*` rules and stricter option schema](https://github.com/eslint-markdown/eslint-markdown/pull/655)
+- `2026-08-18` [chore(*): enforce import ordering in rule files](https://github.com/eslint-markdown/eslint-markdown/pull/653)
+- `2026-08-17` [Bug: RuleTester test cases do not accept the language property](https://github.com/eslint-markdown/eslint-markdown/issues/652)
+- `2026-08-14` [Suggestion: Enforce consistent import ordering](https://github.com/eslint-markdown/eslint-markdown/issues/651)
+- `2026-08-10` [feat(eslint-markdown)!: add `consistent-heading-style` rule](https://github.com/eslint-markdown/eslint-markdown/pull/647)
+- `2026-08-01` [fix(eslint-markdown)!: enforce strict schema for style option in `consistent-thematic-break-style`](https://github.com/eslint-markdown/eslint-markdown/pull/639)
+- `2026-07-23` [feat(eslint-markdown)!: add `no-trailing-heading-punctuation` rule](https://github.com/eslint-markdown/eslint-markdown/pull/632)
 
 </details>
 

@@ -42,21 +42,23 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 15" src="https://img.shields.io/badge/Merged%20PRs-15-FC98A8?style=for-the-badge&labelColor=2B2B2B">
-<img height="22" alt="Issues 17" src="https://img.shields.io/badge/Issues-17-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 16" src="https://img.shields.io/badge/Merged%20PRs-16-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Issues 18" src="https://img.shields.io/badge/Issues-18-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
 </div>
 
-**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>27</sub>
+**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>29</sub>
 
+- `2026-09-18` [chore(*): skip workflow on forks](https://github.com/eslint-markdown/eslint-markdown/pull/775)
+- `2026-09-18` [Change Request: skip `sync-client` workflow on forks](https://github.com/eslint-markdown/eslint-markdown/issues/774)
 - `2026-09-16` [docs(*): use textarea for new rule details](https://github.com/eslint-markdown/eslint-markdown/pull/730)
-- `2026-09-16` [Bug: `no-double-punctuation` reports punctuation after gemoji and HTML entities](https://github.com/eslint-markdown/eslint-markdown/issues/758)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD060`](https://github.com/eslint-markdown/eslint-markdown/issues/753)
 
 <details>
-<summary>Show 24 more</summary>
+<summary>Show 26 more</summary>
 
+- `2026-09-16` [Bug: `no-double-punctuation` reports punctuation after gemoji and HTML entities](https://github.com/eslint-markdown/eslint-markdown/issues/758)
+- `2026-09-16` [New Rule: implement `markdownlint`'s `MD060`](https://github.com/eslint-markdown/eslint-markdown/issues/753)
 - `2026-09-16` [New Rule: implement `markdownlint`'s `MD058`](https://github.com/eslint-markdown/eslint-markdown/issues/752)
 - `2026-09-16` [New Rule: implement `markdownlint`'s `MD055`](https://github.com/eslint-markdown/eslint-markdown/issues/751)
 - `2026-09-16` [New Rule: implement `markdownlint`'s `MD054`](https://github.com/eslint-markdown/eslint-markdown/issues/750)

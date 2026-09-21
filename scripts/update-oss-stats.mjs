@@ -160,7 +160,7 @@ async function main() {
     .map(toContribution)
     .filter(({ repository }) => isAllowed(repository));
 
-  const contributions = [...mergedPullRequests, ...issues].sort((previous, next) =>
+  const contributions = [...mergedPullRequests].sort((previous, next) =>
     next.openedAt.localeCompare(previous.openedAt),
   );
 

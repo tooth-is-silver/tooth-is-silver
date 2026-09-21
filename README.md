@@ -48,53 +48,35 @@
 
 </div>
 
-**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>29</sub>
+**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>12</sub>
 
 - `2026-09-18` [chore(*): skip workflow on forks](https://github.com/eslint-markdown/eslint-markdown/pull/775)
-- `2026-09-18` [Change Request: skip `sync-client` workflow on forks](https://github.com/eslint-markdown/eslint-markdown/issues/774)
 - `2026-09-16` [docs(*): use textarea for new rule details](https://github.com/eslint-markdown/eslint-markdown/pull/730)
+- `2026-09-10` [test(eslint-markdown): add missing rule type checks](https://github.com/eslint-markdown/eslint-markdown/pull/701)
 
 <details>
-<summary>Show 26 more</summary>
+<summary>Show 9 more</summary>
 
-- `2026-09-16` [Bug: `no-double-punctuation` reports punctuation after gemoji and HTML entities](https://github.com/eslint-markdown/eslint-markdown/issues/758)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD060`](https://github.com/eslint-markdown/eslint-markdown/issues/753)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD058`](https://github.com/eslint-markdown/eslint-markdown/issues/752)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD055`](https://github.com/eslint-markdown/eslint-markdown/issues/751)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD054`](https://github.com/eslint-markdown/eslint-markdown/issues/750)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD032`](https://github.com/eslint-markdown/eslint-markdown/issues/748)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD030`](https://github.com/eslint-markdown/eslint-markdown/issues/747)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD028`](https://github.com/eslint-markdown/eslint-markdown/issues/746)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD027`](https://github.com/eslint-markdown/eslint-markdown/issues/744)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD029`](https://github.com/eslint-markdown/eslint-markdown/issues/743)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD023`](https://github.com/eslint-markdown/eslint-markdown/issues/742)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD022`](https://github.com/eslint-markdown/eslint-markdown/issues/741)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD007`](https://github.com/eslint-markdown/eslint-markdown/issues/732)
-- `2026-09-16` [New Rule: implement `markdownlint`'s `MD005`](https://github.com/eslint-markdown/eslint-markdown/issues/726)
-- `2026-09-10` [test(eslint-markdown): add missing rule type checks](https://github.com/eslint-markdown/eslint-markdown/pull/701)
 - `2026-08-30` [fix(eslint-markdown): narrow `consistent-code-style` error ranges for the `style` message](https://github.com/eslint-markdown/eslint-markdown/pull/675)
 - `2026-08-28` [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/eslint-markdown/eslint-markdown/pull/671)
 - `2026-08-23` [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/eslint-markdown/eslint-markdown/pull/667)
 - `2026-08-21` [docs(eslint-markdown): add JSDoc to rule option types](https://github.com/eslint-markdown/eslint-markdown/pull/663)
 - `2026-08-19` [feat(eslint-markdown): support string patterns in `allow-*` rules and stricter option schema](https://github.com/eslint-markdown/eslint-markdown/pull/655)
 - `2026-08-18` [chore(*): enforce import ordering in rule files](https://github.com/eslint-markdown/eslint-markdown/pull/653)
-- `2026-08-17` [Infrastructure: RuleTester test cases do not accept the language property](https://github.com/eslint-markdown/eslint-markdown/issues/652)
-- `2026-08-14` [Suggestion: Enforce consistent import ordering](https://github.com/eslint-markdown/eslint-markdown/issues/651)
 - `2026-08-10` [feat(eslint-markdown)!: add `consistent-heading-style` rule](https://github.com/eslint-markdown/eslint-markdown/pull/647)
 - `2026-08-01` [fix(eslint-markdown)!: enforce strict schema for style option in `consistent-thematic-break-style`](https://github.com/eslint-markdown/eslint-markdown/pull/639)
 - `2026-07-23` [feat(eslint-markdown)!: add `no-trailing-heading-punctuation` rule](https://github.com/eslint-markdown/eslint-markdown/pull/632)
 
 </details>
 
-**[eslint/markdown](https://github.com/eslint/markdown)** <sub>2</sub>
-
-- `2026-08-12` [Bug: `no-bare-urls` autofix crashes for www autolinks](https://github.com/eslint/markdown/issues/710)
-- `2026-01-25` [chore: update devDependencies minor and patch versions](https://github.com/eslint/markdown/pull/614)
-
 **[eslint/eslint](https://github.com/eslint/eslint)** <sub>2</sub>
 
 - `2026-07-17` [docs: correct --suppressions-location option description](https://github.com/eslint/eslint/pull/21093)
 - `2026-07-17` [test: add error locations to `eqeqeq`](https://github.com/eslint/eslint/pull/21090)
+
+**[eslint/markdown](https://github.com/eslint/markdown)** <sub>1</sub>
+
+- `2026-01-25` [chore: update devDependencies minor and patch versions](https://github.com/eslint/markdown/pull/614)
 
 **[meursyphus/ssgoi](https://github.com/meursyphus/ssgoi)** <sub>1</sub>
 

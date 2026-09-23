@@ -42,7 +42,7 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 16" src="https://img.shields.io/badge/Merged%20PRs-16-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 17" src="https://img.shields.io/badge/Merged%20PRs-17-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Issues 18" src="https://img.shields.io/badge/Issues-18-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
@@ -69,14 +69,15 @@
 
 </details>
 
+**[eslint/markdown](https://github.com/eslint/markdown)** <sub>2</sub>
+
+- `2026-09-16` [docs: use textarea for new rule details](https://github.com/eslint/markdown/pull/738)
+- `2026-01-25` [chore: update devDependencies minor and patch versions](https://github.com/eslint/markdown/pull/614)
+
 **[eslint/eslint](https://github.com/eslint/eslint)** <sub>2</sub>
 
 - `2026-07-17` [docs: correct --suppressions-location option description](https://github.com/eslint/eslint/pull/21093)
 - `2026-07-17` [test: add error locations to `eqeqeq`](https://github.com/eslint/eslint/pull/21090)
-
-**[eslint/markdown](https://github.com/eslint/markdown)** <sub>1</sub>
-
-- `2026-01-25` [chore: update devDependencies minor and patch versions](https://github.com/eslint/markdown/pull/614)
 
 **[meursyphus/ssgoi](https://github.com/meursyphus/ssgoi)** <sub>1</sub>
 

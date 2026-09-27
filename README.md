@@ -42,21 +42,22 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 17" src="https://img.shields.io/badge/Merged%20PRs-17-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 18" src="https://img.shields.io/badge/Merged%20PRs-18-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Issues 18" src="https://img.shields.io/badge/Issues-18-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
 </div>
 
-**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>12</sub>
+**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>13</sub>
 
 - `2026-09-18` [chore(*): skip workflow on forks](https://github.com/eslint-markdown/eslint-markdown/pull/775)
 - `2026-09-16` [docs(*): use textarea for new rule details](https://github.com/eslint-markdown/eslint-markdown/pull/730)
-- `2026-09-10` [test(eslint-markdown): add missing rule type checks](https://github.com/eslint-markdown/eslint-markdown/pull/701)
+- `2026-09-11` [feat(eslint-markdown)!: add `no-multiple-atx-heading-space` rule](https://github.com/eslint-markdown/eslint-markdown/pull/704)
 
 <details>
-<summary>Show 9 more</summary>
+<summary>Show 10 more</summary>
 
+- `2026-09-10` [test(eslint-markdown): add missing rule type checks](https://github.com/eslint-markdown/eslint-markdown/pull/701)
 - `2026-08-30` [fix(eslint-markdown): narrow `consistent-code-style` error ranges for the `style` message](https://github.com/eslint-markdown/eslint-markdown/pull/675)
 - `2026-08-28` [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/eslint-markdown/eslint-markdown/pull/671)
 - `2026-08-23` [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/eslint-markdown/eslint-markdown/pull/667)

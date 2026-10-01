@@ -42,7 +42,7 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 19" src="https://img.shields.io/badge/Merged%20PRs-19-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 20" src="https://img.shields.io/badge/Merged%20PRs-20-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Issues 18" src="https://img.shields.io/badge/Issues-18-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
@@ -71,9 +71,10 @@
 
 </details>
 
-**[eslint/markdown](https://github.com/eslint/markdown)** <sub>2</sub>
+**[eslint/markdown](https://github.com/eslint/markdown)** <sub>3</sub>
 
 - `2026-09-16` [docs: use textarea for new rule details](https://github.com/eslint/markdown/pull/738)
+- `2026-08-24` [fix: correct www autofix in `no-bare-urls`](https://github.com/eslint/markdown/pull/720)
 - `2026-01-25` [chore: update devDependencies minor and patch versions](https://github.com/eslint/markdown/pull/614)
 
 **[eslint/eslint](https://github.com/eslint/eslint)** <sub>2</sub>

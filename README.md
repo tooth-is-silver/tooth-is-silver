@@ -42,23 +42,24 @@
 
 <div align="center">
 
-<img height="22" alt="Merged PRs 20" src="https://img.shields.io/badge/Merged%20PRs-20-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Merged PRs 21" src="https://img.shields.io/badge/Merged%20PRs-21-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Issues 18" src="https://img.shields.io/badge/Issues-18-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
 </div>
 
-**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>14</sub>
+**[eslint-markdown/eslint-markdown](https://github.com/eslint-markdown/eslint-markdown)** <sub>15</sub>
 
 - `2026-09-18` [chore(*): skip workflow on forks](https://github.com/eslint-markdown/eslint-markdown/pull/775)
 - `2026-09-17` [fix(eslint-markdown): ignore punctuation after gemoji and HTML entities in `no-double-punctuation`, and handle backslash escapes before HTML entities in `no-trailing-heading-punctuation`](https://github.com/eslint-markdown/eslint-markdown/pull/769)
 - `2026-09-16` [docs(*): use textarea for new rule details](https://github.com/eslint-markdown/eslint-markdown/pull/730)
 
 <details>
-<summary>Show 11 more</summary>
+<summary>Show 12 more</summary>
 
 - `2026-09-11` [feat(eslint-markdown)!: add `no-multiple-atx-heading-space` rule](https://github.com/eslint-markdown/eslint-markdown/pull/704)
 - `2026-09-10` [test(eslint-markdown): add missing rule type checks](https://github.com/eslint-markdown/eslint-markdown/pull/701)
+- `2026-09-05` [feat(eslint-markdown)!: add `consistent-ordered-list-style` rule](https://github.com/eslint-markdown/eslint-markdown/pull/678)
 - `2026-08-30` [fix(eslint-markdown): narrow `consistent-code-style` error ranges for the `style` message](https://github.com/eslint-markdown/eslint-markdown/pull/675)
 - `2026-08-28` [fix(eslint-markdown): improve messages for empty allow lists](https://github.com/eslint-markdown/eslint-markdown/pull/671)
 - `2026-08-23` [refactor(eslint-markdown): derive consistent style types from constants](https://github.com/eslint-markdown/eslint-markdown/pull/667)

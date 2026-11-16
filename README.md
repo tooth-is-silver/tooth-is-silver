@@ -9,7 +9,7 @@
 <br />
 
 <div align='center'>
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+<!-- <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -27,7 +27,7 @@
       style='width:80%'
     />
   </picture>
-</a>
+</a> -->
 </div>
 
   <!-- <img style='height:140px' align="center" src="https://github-readme-stats-azure-pi-36.vercel.app/api/pin/?username=tooth-is-silver&repo=npm-eslint-markdown&theme=transparent&hide_border=true" />

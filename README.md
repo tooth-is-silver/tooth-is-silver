@@ -43,7 +43,7 @@
 <div align="center">
 
 <img height="22" alt="Merged PRs 21" src="https://img.shields.io/badge/Merged%20PRs-21-FC98A8?style=for-the-badge&labelColor=2B2B2B">
-<img height="22" alt="Issues 18" src="https://img.shields.io/badge/Issues-18-FC98A8?style=for-the-badge&labelColor=2B2B2B">
+<img height="22" alt="Issues 19" src="https://img.shields.io/badge/Issues-19-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 <img height="22" alt="Repositories 4" src="https://img.shields.io/badge/Repositories-4-FC98A8?style=for-the-badge&labelColor=2B2B2B">
 
 </div>
